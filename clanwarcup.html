@@ -7,6 +7,7 @@
   <meta name="keywords" content="The Round Table Knights">
   <meta name="description" content="The Round Table Knights">
   
+  <script src="./scripts/clanwarcup.js"></script>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/flat-icon/flaticon.css">
   <link rel="stylesheet" href="temp/styles/clanwarcup.css">
@@ -17,84 +18,375 @@
         <h2><a href="https://store.steampowered.com/app/594570/Total_War_WARHAMMER_II/">Total War: Warhammer II</a> - 2021 edition - <a href="index.html">Hosted by RTK</a></h2>
         <h2>Direct any inquiries to RTK | ViciousSatsuma on Discord</h2>
         
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Upcoming')">Upcoming Clan Wars</button>
+            <button class="tablinks" onclick="openTab(event, 'Groupstage')">Groupstage</button>
+            <button class="tablinks" onclick="openTab(event, 'Teams')">Clans & Players</button>
+        </div>
+
+        <div id="Upcoming" class="tabcontent">
+            <table class="container">
+                <caption>UPCOMING CLAN WARS</caption>
+                <thead>
+                    <tr>
+                        <th><h1>CLANS</h1></th>
+                        <th><h1>GROUP</h1></th>
+                        <th><h1>CASTER</h1></th>
+                        <th><h1>SCORE</h1></th>
+                        <th><h1>DEADLINE</h1></th>
+                        <th><h1>STAGE</h1></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HAN vs PE</td>
+                        <td>GROUP 1</td>
+                        <td><a target="_blank" href="https://www.twitch.tv/my_son_hw"><img src="./assets/images/logo_mysonhw.webp"></a></td>
+                        <td>TBD</td>
+                        <td>12/09/2021</td>
+                        <td>GROUPSTAGE</td>
+                    </tr>
+                    <tr>
+                        <td>RTK vs HELLO?</td>
+                        <td>GROUP 3</td>
+                        <td><a target="_blank" href="https://www.youtube.com/c/Valkonos"><img src="./assets/images/logo_valkonos.webp"></a></td>
+                        <td>TBD</td>
+                        <td>12/09/2021</td>
+                        <td>GROUPSTAGE</td>
+                    </tr>
+                    <tr>
+                        <td>Crying Beastmen vs XMT</td>
+                        <td>GROUP 4</td>
+                        <td><a target="_blank" href="https://www.youtube.com/channel/UC2Ar9ggXnOj3SkNv9uC7TiA"><img src="./assets/images/logo_arubberduckofwar.webp"></a></td>
+                        <td>TBD</td>
+                        <td>12/09/2021</td>
+                        <td>GROUPSTAGE</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <table class="container">
+                <caption>CLANS</caption>
+                <thead>
+                    <tr>
+                        <th><h1>CLANS</h1></th>
+                        <th><h1>GROUP</h1></th>
+                        <th><h1>CASTER</h1></th>
+                        <th><h1>SCORE</h1></th>
+                        <th><h1>DATE</h1></th>
+                        <th><h1>STAGE</h1></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><p>EC vs THT <span class="win">W</span></p></td>
+                        <td>GROUP 4</td>
+                        <td><a target="_blank" href="https://www.youtube.com/watch?v=w3J9ZRVO70M"><img src="./assets/images/logo_arubberduckofwar.webp"></a></td>
+                        <td>3 - 12</td>
+                        <td>06/09/2021</td>
+                        <td>GROUPSTAGE</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="win">W</span> ODM vs SoTM</td>
+                        <td>GROUP 2</td>
+                        <td><a target="_blank" href="https://www.youtube.com/watch?v=65Iu3e5j-68"><img src="./assets/images/logo_turin.webp"></a></td>
+                        <td>
+                            13 - 2</td>
+                        <td>04/09/2021</td>
+                        <td>GROUPSTAGE</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            </div>
+        </main>
+
+    <div id="Groupstage" class="tabcontent">
         <table class="container">
-            <caption>UPCOMING CLAN WARS</caption>
+            <caption>Group 1</caption>
             <thead>
                 <tr>
                     <th><h1>CLANS</h1></th>
-                    <th><h1>GROUP</h1></th>
-                    <th><h1>CASTER</h1></th>
+                    <th><h1>RANK</h1></th>
                     <th><h1>SCORE</h1></th>
-                    <th><h1>DEADLINE</h1></th>
-                    <th><h1>STAGE</h1></th>
+                    <th><h1>CAST</h1></th>
+                    <th><h1></h1></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>HAN vs PE</td>
-                    <td>GROUP 1</td>
-                    <td><a target="_blank" href="https://www.twitch.tv/my_son_hw"><img src="./assets/images/logo_mysonhw.webp"></a></td>
-                    <td>TBD</td>
-                    <td>12/09/2021</td>
-                    <td>GROUPSTAGE</td>
+                    <td>Via Militera</td>
+                    <td>1</td>
+                    <td><div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="lossdiv">
+                            L
+                        </div>
+                    </div></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>RTK vs HELLO?</td>
-                    <td>GROUP 3</td>
-                    <td><a target="_blank" href="https://www.youtube.com/c/Valkonos"><img src="./assets/images/logo_valkonos.webp"></a></td>
-                    <td>TBD</td>
-                    <td>12/09/2021</td>
-                    <td>GROUPSTAGE</td>
+                    <td>Great HAN Force</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Crying Beastmen vs XMT</td>
-                    <td>GROUP 4</td>
-                    <td><a target="_blank" href="https://www.youtube.com/channel/UC2Ar9ggXnOj3SkNv9uC7TiA"><img src="./assets/images/logo_arubberduckofwar.webp"></a></td>
-                    <td>TBD</td>
-                    <td>12/09/2021</td>
-                    <td>GROUPSTAGE</td>
+                    <td>PE</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
         <br>
-        <br>
         <table class="container">
-            <caption>PAST CLAN WARS</caption>
+            <caption>Group 2</caption>
             <thead>
                 <tr>
                     <th><h1>CLANS</h1></th>
-                    <th><h1>GROUP</h1></th>
-                    <th><h1>CASTER</h1></th>
+                    <th><h1>RANK</h1></th>
                     <th><h1>SCORE</h1></th>
-                    <th><h1>DATE</h1></th>
-                    <th><h1>STAGE</h1></th>
+                    <th><h1>CAST</h1></th>
+                    <th><h1></h1></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><p>EC vs THT <span class="win">W</span></p></td>
-                    <td>GROUP 4</td>
-                    <td><a target="_blank" href="https://www.youtube.com/watch?v=w3J9ZRVO70M"><img src="./assets/images/logo_arubberduckofwar.webp"></a></td>
-                    <td>3 - 12</td>
-                    <td>06/09/2021</td>
-                    <td>GROUPSTAGE</td>
+                    <td>ODM</td>
+                    <td>1</td>
+                    <td><div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="lossdiv">
+                            L
+                        </div>
+                    </div></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td> <span class="win">W</span> ODM vs SoTM</td>
-                    <td>GROUP 2</td>
-                    <td><a target="_blank" href="https://www.youtube.com/watch?v=65Iu3e5j-68"><img src="./assets/images/logo_turin.webp"></a></td>
-                    <td>
-                        13 - 2</td>
-                    <td>04/09/2021</td>
-                    <td>GROUPSTAGE</td>
+                    <td>BBB</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>SoTM</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
         <br>
+        <table class="container">
+            <caption>Group 3 - Caster: <a href="https://www.twitch.tv/my_son_hw">My_Son_HW</a></caption>
+            <thead>
+                <tr>
+                    <th><h1>CLANS</h1></th>
+                    <th><h1>RANK</h1></th>
+                    <th><h1>SCORE</h1></th>
+                    <th><h1>CAST</h1></th>
+                    <th><h1></h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GGX</td>
+                    <td>1</td>
+                    <td><div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="lossdiv">
+                            L
+                        </div>
+                    </div></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>RTK</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>HELLO?</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
         <br>
-    </main>
-    <footer>
+        <table class="container">
+            <caption>Group 4 - Caster: <a href="https://www.twitch.tv/my_son_hw">My_Son_HW</a></caption>
+            <thead>
+                <tr>
+                    <th><h1>CLANS</h1></th>
+                    <th><h1>RANK</h1></th>
+                    <th><h1>SCORE</h1></th>
+                    <th><h1>CAST</h1></th>
+                    <th><h1></h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>THT</td>
+                    <td>1</td>
+                    <td><div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="windiv">
+                            W
+                        </div>
+                        <div class="lossdiv">
+                            L
+                        </div>
+                    </div></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>XMT</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Crying Beastmen</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>EC</td>
+                    <td>/</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+      </div>
+      
+      <div id="Teams" class="tabcontent">
+        <table class="container">
+            <caption>CLANS & PLAYERS</caption>
+            <thead>
+                <tr>
+                    <th><h1>RTK</h1></th>
+                    <th><h1>VM</h1></th>
+                    <th><h1>HAN</h1></th>
+                    <th><h1>PE</h1></th>
+                    <th><h1>ODM</h1></th>
+                    <th><h1>BBB</h1></th>
+                    <th><h1>Sons of the Mountain</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="container">
+            <caption>CLANS & PLAYERS</caption>
+            <thead>
+                <tr>
+                    <th><h1>GGX</h1></th>
+                    <th><h1>HELLO?</h1></th>
+                    <th><h1>THT</h1></th>
+                    <th><h1>XMT</h1></th>
+                    <th><h1>Crying Beastmen</h1></th>
+                    <th><h1>EC</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+      </div>
+
+      <footer>
         <p>Created by <a href="https://steamcommunity.com/id/snipingachilles/">RTK | Achilles</a></p>
     </footer> 
+    
 </body>
 </html>
