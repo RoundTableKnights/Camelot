@@ -225,3 +225,9 @@ img {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+  .visible {
+    height: 3em;
+    width: 10em;
+    background: yellow;
+  }
